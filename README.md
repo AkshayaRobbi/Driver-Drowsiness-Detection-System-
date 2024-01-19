@@ -22,18 +22,19 @@ model to process it and classify weather it opened or closed eyes.
 3. CNN classifies the photographs as having closed or open eyes using the Soft Max layer.
 
 DATA COLLECTION :
+
 The dataset which was used is a subnet of a dataset from(https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset)
 
-The following  HaarCascades XML files are used to  identify objects or features within images or video frames.
-  1.haarcascade_frontalface_default.xml
-  2.haarcascade_ lefteye_2splits.xml
-  3.haarcascade_righteye_2splits.xml
+The following  HaarCascades XML files are used to identify objects or features within images or video frames.
+  1.haarcascade_frontalface_default.xml, 
+  2.haarcascade_ lefteye_2splits.xml, 
+  3.haarcascade_righteye_2splits.xml.
 
 LIBRARIES USED:
-  OpenCV
-  Keras
-  Pandas
-  Numpy
+  OpenCV, 
+  Keras, 
+  Pandas, 
+  Numpy, 
   OS
 
 OUTPUT:
